@@ -7,7 +7,7 @@ steps:
     args:
       - 'build'
       - '-t'
-      - 'gcr.io/spring-boot-demo-439016/spring-boot-rest:${SHORT_SHA}'
+      - 'gcr.io/java-spring-boot-project-id/spring-boot-rest:${SHORT_SHA}'
       - '-f'
       - './Dockerfile'
       - '.'
@@ -24,4 +24,4 @@ options:
   logging: CLOUD_LOGGING_ONLY
 
 images:
-  - gcr.io/spring-boot-demo-439016/spring-boot-rest:${SHORT_SHA}
+  - gcr.io/java-spring-boot-project-id/spring-boot-rest:${SHORT_SHA}
